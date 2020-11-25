@@ -5,7 +5,6 @@ body {
 
 .titulo{
     text-decoration: underline rgb(31, 31, 48);
-    text-align: center center;
 }
 
 .foto {
@@ -16,4 +15,8 @@ body {
 
 .datos {
     padding: 10px 10px;
+}
+
+.porque {
+    text-decoration: white solid;
 }
