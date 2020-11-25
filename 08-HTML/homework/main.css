@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+}
+
+.titulo{
+    text-decoration: underline rgb(31, 31, 48);
+    text-align: center center;
+}
+
+.foto {
+    padding: 5px;
+    width: 200px;
+    border-style: dashed;
+}
+
+.datos {
+    padding: 10px 10px;
+}
