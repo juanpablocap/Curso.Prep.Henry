@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+}
+h1 {
+    color: grey;
+}
+
+img {
+    width: 400px;
+}
+
+.thirtDiv {
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: red 1px;
+}
+
+.spanId {
+    font-size: 18px;
+    margin: 50px;
+}
