@@ -18,17 +18,22 @@ function sumarArray(numeros, cb) {
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
-  array.forEach(function(elemento, indice){
-    for(i=0; i< array.lenght; i++){
-mmmmmm
-    }
+  array.forEach(function(elemento){
+    cb(elemento);
   },0);
+  //for(i=0; i< array.length; i++){  <---otra forma
+  //  cb(array[i]);
+  //}    
 }
 
 function map(array, cb) {
   // Crea un nuevo array
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
+var nuevo = array.map(function(elemento){
+  return cb(elemento);
+},0);
+return nuevo;
 }
 
 // No modificar nada debajo de esta línea
